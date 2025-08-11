@@ -494,7 +494,7 @@ This project is licensed under the MIT License. See LICENSE file for details.
 
 For questions or issues:
 - Create an issue in the repository
-- Contact: haris.gulzar@example.com
+- Contact: harisgulzar@outlook.com
 - Documentation: See README and code comments
 
 ---
