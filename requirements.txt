@@ -1,0 +1,33 @@
+# requirements.txt
+mcp>=1.0.0
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# setup.py
+from setuptools import setup, find_packages
+
+setup(
+    name="haris-profile-mcp-server",
+    version="1.0.0",
+    description="MCP Server for Haris Gulzar Profile Integration",
+    author="Haris Gulzar",
+    packages=find_packages(),
+    install_requires=[
+        "mcp>=1.0.0",
+        "httpx>=0.27.0", 
+        "beautifulsoup4>=4.12.0",
+        "lxml>=4.9.0"
+    ],
+    entry_points={
+        "console_scripts": [
+            "haris-profile-server=haris_profile_server:main",
+        ],
+    },
+    python_requires=">=3.8",
+)
+
+# .env.example
+# Add any environment variables here if needed
+# OPENAI_API_KEY=your_openai_api_key_here
+# ANTHROPIC_API_KEY=your_anthropic_api_key_here
