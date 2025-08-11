@@ -2,7 +2,7 @@
 
 A Model Context Protocol (MCP) server that provides unified access to one's professional profile, including experience, publications, career timeline, and social media presence.
 
-![self-mcp](self-mcp.png)
+[Self-MCP](self-mcp.png)
 
 ## Features
 
